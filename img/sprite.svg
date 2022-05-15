@@ -1,0 +1,7 @@
+<svg width="0" height="0" class="hidden">
+    <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 88 88" id="play">
+        <g opacity="0.5">
+            <path opacity="0.5" d="M44 7.33331C23.76 7.33331 7.33334 23.76 7.33334 44C7.33334 64.24 23.76 80.6666 44 80.6666C64.24 80.6666 80.6667 64.24 80.6667 44C80.6667 23.76 64.24 7.33331 44 7.33331ZM36.6667 60.5V27.5L58.6667 44L36.6667 60.5Z" fill="black"></path>
+        </g>
+    </symbol>
+</svg>
