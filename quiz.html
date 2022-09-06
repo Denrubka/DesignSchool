@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+  <link rel="shortcut icon" href="/img/fav.ico" type="image/png">
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Design School - quiz</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<main class="quiz">
+  <div class="container quiz-container">
+    <div class="quiz-windows">
+      <div class="quiz-selection quiz-wrapper">
+        <div class="quiz-wrapper__head">
+          <h1 class="quiz-selection__title quiz-title">Хотите ли вы быть медиа моушн дизайнером?</h1>
+        </div>
+        <form action="/" class="quiz-form">
+          <a href="#!" class="quiz-button-agree quiz__button" type="button">Да
+            <svg class="icon quiz__button-icon" width="24" height="24">
+              <use xlink:href="#arrow"></use>
+            </svg>
+          </a>
+          <a href="#!" class="quiz-button-disagree quiz__button" type="button">Нет
+            <svg class="icon quiz__button-icon" width="24" height="24">
+              <use xlink:href="#arrow"></use>
+            </svg>
+          </a>
+        </form>
+      </div>
+      <div class="quiz-questions quiz-wrapper" data-progress="1">
+        <div class="quiz-wrapper__head">
+          <h2 class="quiz-questions__title quiz-title">Дизайн - это прежде всего: </h2>
+        </div>
+        <form action="/" class="quiz-form">
+          <div class="quiz-questions__answer">
+            <input type="radio" id="answer-1" class="quiz-questions__input" name="answers-1" value="no" checked>
+            <label for="answer-1" class="quiz-questions__label">
+            <span class="quiz-questions__circle">
+              <span class="quiz-questions__circle-checked"></span>
+            </span>
+              <span class="quiz-questions__answer-title">Удобство и понятность</span>
+            </label>
+          </div>
+
+          <div class="quiz-questions__answer">
+            <input type="radio" id="answer-2" class="quiz-questions__input" name="answers-1" value="no">
+            <label for="answer-2" class="quiz-questions__label">
+            <span class="quiz-questions__circle">
+              <span class="quiz-questions__circle-checked"></span>
+            </span>
+              <span class="quiz-questions__answer-title">Много кропотливой работы</span>
+            </label>
+          </div>
+
+          <div class="quiz-questions__answer">
+            <input type="radio" id="answer-3" class="quiz-questions__input" name="answers-1" value="yes">
+            <label for="answer-3" class="quiz-questions__label">
+            <span class="quiz-questions__circle">
+              <span class="quiz-questions__circle-checked"></span>
+            </span>
+              <span class="quiz-questions__answer-title">Гармония элементов: звука, анимации, цвета, картинки</span>
+            </label>
+          </div>
+
+          <div class="quiz-questions__answer">
+            <input type="radio" id="answer-4" class="quiz-questions__input" name="answers-1" value="no">
+            <label for="answer-4" class="quiz-questions__label">
+            <span class="quiz-questions__circle">
+              <span class="quiz-questions__circle-checked"></span>
+            </span>
+              <span class="quiz-questions__answer-title">Все вышеперечисленное</span>
+            </label>
+          </div>
+
+          <a href="#!" class="quiz__button quiz-button-continue">Продолжить
+            <svg class="icon quiz__button-icon" width="24" height="24">
+              <use xlink:href="#arrow"></use>
+            </svg>
+          </a>
+
+          <div class="quiz-progressbar">
+            <span class="quiz-progressbar__line"></span>
+          </div>
+        </form>
+      </div>
+
+      <div class="quiz-questions quiz-wrapper" data-progress="2">
+        <div class="quiz-wrapper__head">
+          <h2 class="quiz-questions__title quiz-title">Что привлекает вас в дизайне больше всего? </h2>
+        </div>
+        <form action="/" class="quiz-form">
+          <div class="quiz-questions__answer">
+            <input type="radio" id="answer-5" class="quiz-questions__input" name="answers-2" value="no" checked>
+            <label for="answer-5" class="quiz-questions__label">
+            <span class="quiz-questions__circle">
+              <span class="quiz-questions__circle-checked"></span>
+            </span>
+              <span class="quiz-questions__answer-title">Создание игр и мультфильмов</span>
+            </label>
+          </div>
+
+          <div class="quiz-questions__answer">
+            <input type="radio" id="answer-6" class="quiz-questions__input" name="answers-2" value="no">
+            <label for="answer-6" class="quiz-questions__label">
+            <span class="quiz-questions__circle">
+              <span class="quiz-questions__circle-checked"></span>
+            </span>
+              <span class="quiz-questions__answer-title">Возможность делать мир вокруг красивее и эстетичнее</span>
+            </label>
+          </div>
+
+          <div class="quiz-questions__answer">
+            <input type="radio" id="answer-7" class="quiz-questions__input" name="answers-2" value="yes">
+            <label for="answer-7" class="quiz-questions__label">
+            <span class="quiz-questions__circle">
+              <span class="quiz-questions__circle-checked"></span>
+            </span>
+              <span class="quiz-questions__answer-title">Разработка удобных интерфейсов - сайтов и приложений</span>
+            </label>
+          </div>
+
+          <div class="quiz-questions__answer">
+            <input type="radio" id="answer-8" class="quiz-questions__input" name="answers-2" value="no">
+            <label for="answer-8" class="quiz-questions__label">
+            <span class="quiz-questions__circle">
+              <span class="quiz-questions__circle-checked"></span>
+            </span>
+              <span class="quiz-questions__answer-title">Возможность соединять работу со звуком, анимацию, графику</span>
+            </label>
+          </div>
+
+          <a href="#!" class="quiz__button quiz-button-continue">Продолжить
+            <svg class="icon quiz__button-icon" width="24" height="24">
+              <use xlink:href="#arrow"></use>
+            </svg>
+          </a>
+
+          <div class="quiz-progressbar">
+            <span class="quiz-progressbar__line"></span>
+          </div>
+        </form>
+      </div>
+
+      <div class="quiz-questions quiz-wrapper" data-progress="3">
+        <div class="quiz-wrapper__head">
+          <h2 class="quiz-questions__title quiz-title">Какой из ваших навыков мог бы пригодиться вам в профессии дизайнера? </h2>
+        </div>
+        <form action="/" class="quiz-form">
+          <div class="quiz-questions__answer">
+            <input type="radio" id="answer-9" class="quiz-questions__input" name="answers-3" value="no" checked>
+            <label for="answer-9" class="quiz-questions__label">
+            <span class="quiz-questions__circle">
+              <span class="quiz-questions__circle-checked"></span>
+            </span>
+              <span class="quiz-questions__answer-title">Умение монтировать видео</span>
+            </label>
+          </div>
+
+          <div class="quiz-questions__answer">
+            <input type="radio" id="answer-10" class="quiz-questions__input" name="answers-3" value="no">
+            <label for="answer-10" class="quiz-questions__label">
+            <span class="quiz-questions__circle">
+              <span class="quiz-questions__circle-checked"></span>
+            </span>
+              <span class="quiz-questions__answer-title">Умение рисовать, чертить объемные фигуры, модели</span>
+            </label>
+          </div>
+
+          <div class="quiz-questions__answer">
+            <input type="radio" id="answer-11" class="quiz-questions__input" name="answers-3" value="yes">
+            <label for="answer-11" class="quiz-questions__label">
+            <span class="quiz-questions__circle">
+              <span class="quiz-questions__circle-checked"></span>
+            </span>
+              <span class="quiz-questions__answer-title">Я пробовал(а) делать сайты</span>
+            </label>
+          </div>
+
+          <div class="quiz-questions__answer">
+            <input type="radio" id="answer-12" class="quiz-questions__input" name="answers-3" value="no">
+            <label for="answer-12" class="quiz-questions__label">
+            <span class="quiz-questions__circle">
+              <span class="quiz-questions__circle-checked"></span>
+            </span>
+              <span class="quiz-questions__answer-title">Кажется, у меня нет таких навыков</span>
+            </label>
+          </div>
+
+          <a href="#!" class="quiz__button quiz-button-continue">Продолжить
+            <svg class="icon quiz__button-icon" width="24" height="24">
+              <use xlink:href="#arrow"></use>
+            </svg>
+          </a>
+
+          <div class="quiz-progressbar">
+            <span class="quiz-progressbar__line"></span>
+          </div>
+        </form>
+      </div>
+
+      <div class="quiz-questions quiz-wrapper" data-progress="4">
+        <div class="quiz-wrapper__head">
+          <h2 class="quiz-questions__title quiz-title">Готовый ли вы работать не по графику, а на результат? </h2>
+        </div>
+        <form action="/" class="quiz-form">
+          <div class="quiz-questions__answer">
+            <input type="radio" id="answer-13" class="quiz-questions__input" name="answers-4" value="no" checked>
+            <label for="answer-13" class="quiz-questions__label">
+            <span class="quiz-questions__circle">
+              <span class="quiz-questions__circle-checked"></span>
+            </span>
+              <span class="quiz-questions__answer-title">Да</span>
+            </label>
+          </div>
+
+          <div class="quiz-questions__answer">
+            <input type="radio" id="answer-14" class="quiz-questions__input" name="answers-4" value="no">
+            <label for="answer-14" class="quiz-questions__label">
+            <span class="quiz-questions__circle">
+              <span class="quiz-questions__circle-checked"></span>
+            </span>
+              <span class="quiz-questions__answer-title">Нет</span>
+            </label>
+
+          </div>
+
+          <a href="#!" class="quiz__button quiz-button-continue">Продолжить
+            <svg class="icon quiz__button-icon" width="24" height="24">
+              <use xlink:href="#arrow"></use>
+            </svg>
+          </a>
+
+          <div class="quiz-progressbar">
+            <span class="quiz-progressbar__line"></span>
+          </div>
+        </form>
+      </div>
+
+      <div class="quiz-questions quiz-wrapper" data-progress="5">
+        <div class="quiz-wrapper__head">
+          <h2 class="quiz-questions__title quiz-title">На каком уровне ты находишься в создании видео? </h2>
+        </div>
+        <form action="/" class="quiz-form">
+          <div class="quiz-questions__answer">
+            <input type="radio" id="answer-15" class="quiz-questions__input" name="answers-5" value="no" checked>
+            <label for="answer-15" class="quiz-questions__label">
+            <span class="quiz-questions__circle">
+              <span class="quiz-questions__circle-checked"></span>
+            </span>
+              <span class="quiz-questions__answer-title">Я только-только делаю свои первые шаги</span>
+            </label>
+          </div>
+
+          <div class="quiz-questions__answer">
+            <input type="radio" id="answer-16" class="quiz-questions__input" name="answers-5" value="no">
+            <label for="answer-16" class="quiz-questions__label">
+            <span class="quiz-questions__circle">
+              <span class="quiz-questions__circle-checked"></span>
+            </span>
+              <span class="quiz-questions__answer-title">Я уже не совсем новичок, владею базовыми знаниями</span>
+            </label>
+          </div>
+
+          <div class="quiz-questions__answer">
+            <input type="radio" id="answer-17" class="quiz-questions__input" name="answers-5" value="yes">
+            <label for="answer-17" class="quiz-questions__label">
+            <span class="quiz-questions__circle">
+              <span class="quiz-questions__circle-checked"></span>
+            </span>
+              <span class="quiz-questions__answer-title">Я уверенно чувствую себя в качестве специалиста в сфере видео</span>
+            </label>
+          </div>
+
+          <div class="quiz-questions__answer">
+            <input type="radio" id="answer-18" class="quiz-questions__input" name="answers-5" value="no">
+            <label for="answer-18" class="quiz-questions__label">
+            <span class="quiz-questions__circle">
+              <span class="quiz-questions__circle-checked"></span>
+            </span>
+              <span class="quiz-questions__answer-title">Я профессионал, знаю все от и до</span>
+            </label>
+          </div>
+
+          <div class="quiz-questions__answer">
+            <input type="radio" id="answer-19" class="quiz-questions__input" name="answers-5" value="no">
+            <label for="answer-19" class="quiz-questions__label">
+            <span class="quiz-questions__circle">
+              <span class="quiz-questions__circle-checked"></span>
+            </span>
+              <span class="quiz-questions__answer-title">Я профессионал в определённой области создания видео (профессиональный монтажёр/оператор/моушн-дизайнер/режиссёр и т.д.)</span>
+            </label>
+          </div>
+
+          <a href="#!" class="quiz__button quiz-button-continue">Продолжить
+            <svg class="icon quiz__button-icon" width="24" height="24">
+              <use xlink:href="#arrow"></use>
+            </svg>
+          </a>
+
+          <div class="quiz-progressbar">
+            <span class="quiz-progressbar__line"></span>
+          </div>
+        </form>
+      </div>
+
+      <div class="quiz-questions quiz-wrapper" data-progress="6">
+        <div class="quiz-wrapper__head">
+          <h2 class="quiz-questions__title quiz-title">Что для тебя видео? </h2>
+          <span class="quiz-subtitle">Если ты не нашел нужного пункта в предложенных вариантах ответа, то обязательно впиши свой вариант в пункте "Другое"</span>
+        </div>
+        <form action="/" class="quiz-form">
+          <div class="quiz-questions__answer">
+            <input type="radio" id="answer-20" class="quiz-questions__input" name="answers-6" value="no" checked>
+            <label for="answer-20" class="quiz-questions__label">
+            <span class="quiz-questions__circle">
+              <span class="quiz-questions__circle-checked"></span>
+            </span>
+              <span class="quiz-questions__answer-title">Видео - мечта, которую я хочу превратить в свою профессию</span>
+            </label>
+          </div>
+
+          <div class="quiz-questions__answer">
+            <input type="radio" id="answer-21" class="quiz-questions__input" name="answers-6" value="no">
+            <label for="answer-21" class="quiz-questions__label">
+            <span class="quiz-questions__circle">
+              <span class="quiz-questions__circle-checked"></span>
+            </span>
+              <span class="quiz-questions__answer-title">Видео - это моё хобби, которым я занимаюсь в свободное время и в котором хочу развиваться</span>
+            </label>
+          </div>
+
+          <div class="quiz-questions__answer">
+            <input type="radio" id="answer-22" class="quiz-questions__input" name="answers-6" value="yes">
+            <label for="answer-22" class="quiz-questions__label">
+            <span class="quiz-questions__circle">
+              <span class="quiz-questions__circle-checked"></span>
+            </span>
+              <span class="quiz-questions__answer-title">Видео - это моя профессия, в которой я хочу совершенствоваться</span>
+            </label>
+          </div>
+
+          <div class="quiz-questions__answer">
+            <input type="radio" id="answer-23" class="quiz-questions__input" name="answers-6" value="no">
+            <label for="answer-23" class="quiz-questions__label">
+            <span class="quiz-questions__circle">
+              <span class="quiz-questions__circle-checked"></span>
+            </span>
+              <span class="quiz-questions__answer-title">Другое: </span>
+              <input type="text" class="quiz-questions__input-text">
+            </label>
+          </div>
+
+          <a href="#!" class="quiz__button quiz-button-continue">Продолжить
+            <svg class="icon quiz__button-icon" width="24" height="24">
+              <use xlink:href="#arrow"></use>
+            </svg>
+          </a>
+
+          <div class="quiz-progressbar">
+            <span class="quiz-progressbar__line"></span>
+          </div>
+        </form>
+      </div>
+
+      <div class="quiz-questions quiz-wrapper" data-progress="7">
+        <div class="quiz-wrapper__head">
+          <h2 class="quiz-questions__title quiz-title">Готовы ли вы работать не по графику, а на результат? </h2>
+        </div>
+        <form action="/" class="quiz-form">
+          <div class="quiz-questions__answer">
+            <input type="radio" id="answer-24" class="quiz-questions__input" name="answers-7" value="no" checked>
+            <label for="answer-24" class="quiz-questions__label">
+            <span class="quiz-questions__circle">
+              <span class="quiz-questions__circle-checked"></span>
+            </span>
+              <span class="quiz-questions__answer-title">Мне комфортнее работать в офисе по графику</span>
+            </label>
+          </div>
+
+          <div class="quiz-questions__answer">
+            <input type="radio" id="answer-25" class="quiz-questions__input" name="answers-7" value="no">
+            <label for="answer-25" class="quiz-questions__label">
+            <span class="quiz-questions__circle">
+              <span class="quiz-questions__circle-checked"></span>
+            </span>
+              <span class="quiz-questions__answer-title">Мне комфортнее работать на себя, выполняя те задачи, которые я сам себе ставлю</span>
+            </label>
+          </div>
+
+          <a href="#!" class="quiz__button quiz-button-stop">Продолжить
+            <svg class="icon quiz__button-icon" width="24" height="24">
+              <use xlink:href="#arrow"></use>
+            </svg>
+          </a>
+
+          <div class="quiz-progressbar">
+            <span class="quiz-progressbar__line"></span>
+          </div>
+        </form>
+      </div>
+
+      <div class="quiz-final quiz-final-successfully quiz-wrapper">
+        <div class="quiz-wrapper__head">
+          <h2 class="quiz-final__title quiz-title">По результатам тестирования вам подходит профессия медиа моушен дизайнера.
+            Что бы записаться в академию нажмите продолжить!</h2>
+        </div>
+        <a href="#!" class="quiz__button" type="button">Продолжить
+          <svg class="icon quiz__button-icon" width="24" height="24">
+            <use xlink:href="#arrow"></use>
+          </svg>
+        </a>
+      </div>
+
+      <div class="quiz-final quiz-final-unsuccessfully quiz-wrapper">
+        <div class="quiz-wrapper__head">
+          <h2 class="quiz-final__title quiz-title">По рузультатам тестиоования вам не подходит професия медиа моушен дизайнера.</h2>
+        </div>
+        <a href="#!" class="quiz__button" type="button">Записаться в академию
+          <svg class="icon quiz__button-icon" width="24" height="24">
+            <use xlink:href="#arrow"></use>
+          </svg>
+        </a>
+        <a href="#!" class="quiz__button" type="button" onclick="location.reload(); return false;">Повторить тест
+          <svg class="icon quiz__button-icon" width="24" height="24">
+            <use xlink:href="#arrow"></use>
+          </svg>
+        </a>
+      </div>
+
+      <div class="quiz-preloader">
+        <div class="loader">loading</div>
+      </div>
+    </div>
+
+  </div>
+  <img src="./img/quiz-triangle-small.png" alt="Triangle" class="quiz-triangle quiz-triangle-small">
+  <img src="./img/quiz-triangle-big.png" alt="Triangle" class="quiz-triangle quiz-triangle-big">
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__wrapper">
+      <span class="footer__span">ИП Костюченко Ксения Вячеславовна, ОГРН:322784700122051</span>
+      <div class="footer__link-email">
+        <span class="footer__email">E-mail:</span>
+        <a href="#!" class="footer__link">info@m-art.school</a>
+      </div>
+      <a href="https://education.m-art.school/policy" class="footer__link">Политика конфиденциальности</a>
+      <a href="https://education.m-art.school/oferta" class="footer__link">Оферта</a>
+    </div>
+  </div>
+</footer>
+
+
+<svg width="0" height="0" class="hidden">
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="arrow">
+    <path d="M9.29006 15.88L13.1701 12L9.29006 8.11998C8.90006 7.72998 8.90006 7.09998 9.29006 6.70998C9.68006 6.31998 10.3101 6.31998 10.7001 6.70998L15.2901 11.3C15.6801 11.69 15.6801 12.32 15.2901 12.71L10.7001 17.3C10.3101 17.69 9.68006 17.69 9.29006 17.3C8.91006 16.91 8.90006 16.27 9.29006 15.88Z" fill="CurrentColor"></path>
+  </symbol>
+</svg>
+
+<script src="./js/quiz.js"></script>
+</body>
+</html>
