@@ -1447,7 +1447,7 @@ body {
     .quiz-triangle-big {
         width: 140px;
         top: 10px;
-        right: 10px;
+        right: 32px;
         bottom: initial;
         left: initial;
         transform: rotate(-23deg);
